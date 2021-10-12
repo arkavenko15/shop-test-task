@@ -12,10 +12,10 @@ const MobileMenu = (
                 <span></span>
                 <span></span>
             </div>
-                  <Link to="/home" style={{ textDecoration: 'none' }}><li>Home</li></Link>
-                  <Link to="/products" style={{ textDecoration: 'none' }}><li>Products</li></Link>
-                  <Link to="/payment" style={{ textDecoration: 'none' }}><li>Payment</li></Link>
-                  <Link to="/shipping" style={{ textDecoration: 'none' }}><li>Shipping</li></Link>
+                  <Link to="/shop-test-task/home" style={{ textDecoration: 'none' }}><li>Home</li></Link>
+                  <Link to="/shop-test-task/products" style={{ textDecoration: 'none' }}><li>Products</li></Link>
+                  <Link to="/shop-test-task/payment" style={{ textDecoration: 'none' }}><li>Payment</li></Link>
+                  <Link to="/shop-test-task/shipping" style={{ textDecoration: 'none' }}><li>Shipping</li></Link>
             </ul>
         </div>
     )
