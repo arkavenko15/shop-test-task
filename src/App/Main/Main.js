@@ -49,7 +49,7 @@ const Main = ({
                     <div className="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
                         {
                             <>
-                            <Route path="/shop-test-task/home" exact>
+                            <Route path="/shop-test-task/" exact>
                                 <div className="slider">
                                     <ShopSlider/>
                                 </div>
