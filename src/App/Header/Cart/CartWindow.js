@@ -34,11 +34,11 @@ const CartWindow = ({
                     }
 
                 </div>
-                <div className="cart-price"><span>Total price:</span> {totalPrice}$</div>
+                <div className="cart-price"><span>Total price:</span> {totalPrice.toFixed(2)}$</div>
                 <div className="cart-price"><span>Discount:</span>15%</div>
-                <div className="cart-discount-price"><span>Price with discount:</span>{discount}$</div>
+                <div className="cart-discount-price"><span>Price with discount:</span>{discount.toFixed(2)}$</div>
                 <div className="cart-nav">
-                    <Link to="/cart-page" style={{ textDecoration: 'none' }}><button className="cart-page-btn" onClick={() => closeCartWindow()}>View Cart</button></Link>
+                    <Link to="/shop-test-task/cart-page" style={{ textDecoration: 'none' }}><button className="cart-page-btn" onClick={() => closeCartWindow()}>View Cart</button></Link>
                     <button className="checkout-btn">Checkout</button>
                 </div> 
             </div>

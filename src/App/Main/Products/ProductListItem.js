@@ -16,7 +16,7 @@ const ProductListItem = (
                     <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 col-del">
                         <div className="product-list-item item-pointer" key={item.id}>
                             <div className="product-img">
-                                <img src={item.image_link} alt={item.name} onError={(e) => { e.target.onerror = null; e.target.src = "images/no-image.png" }} />
+                                <img src={item.image_link} alt={item.name} onError={(e) => { e.target.onerror = null; e.target.src = "/shop-test-task/images/no-image.png" }} />
                             </div>
                             <div className="product-info">
                                 <div className="product-title"><span>Name:</span>  {item.name}</div>

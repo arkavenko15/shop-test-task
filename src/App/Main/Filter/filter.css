@@ -48,4 +48,11 @@
     font-weight: 600;
     margin-bottom: 15px;
     border-radius: 4px;
+
+}
+.sort-btn:hover{
+    border: 2px solid #00bfbf;
+    background-color: #fff;
+    color: #00bfbf;
+    box-sizing: border-box;
 }

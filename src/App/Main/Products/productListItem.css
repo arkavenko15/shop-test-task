@@ -58,7 +58,13 @@
     text-transform: uppercase;
     border-radius: 3px;
     cursor: pointer;
-    
+
+}
+.product-btn:hover{
+    border: 2px solid #00bfbf;
+    background-color: #fff;
+    color: #00bfbf;
+    box-sizing: border-box;
 }
 .product-features{
     text-align: center;

@@ -49,12 +49,12 @@ const Main = ({
                     <div className="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
                         {
                             <>
-                            <Route path="/home" exact>
+                            <Route path="/shop-test-task/home" exact>
                                 <div className="slider">
                                     <ShopSlider/>
                                 </div>
                             </Route>
-                            <Route path="/products" exact>
+                            <Route path="/shop-test-task/products" exact>
                             <ProductList
                                 products={products}
                                 loading={loading}
@@ -63,7 +63,7 @@ const Main = ({
                                 setQuantity={setQuantity}
                             />
                             </Route>
-                            <Route path="/cart-page">
+                            <Route path="/shop-test-task/cart-page">
                               <CartPage
                                     cartItems={cartItems}
                                     removeProduct={removeProduct}
