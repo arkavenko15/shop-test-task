@@ -24,7 +24,7 @@ const App = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             setLoading(true);
-            const res = await axios.get('http://makeup-api.herokuapp.com/api/v1/products.json');
+            const res = await axios.get('https://makeup-api.herokuapp.com/api/v1/products.json');
             setProducts(res.data);
             setReserve(res.data)
             setLoading(false)
