@@ -1,0 +1,19 @@
+.header-wrapper{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-row{
+    justify-content: space-between;
+}
+.cart , .main-menu , .logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.logo{
+    margin-top: 15px;
+}
+.cart{
+    margin-top: 25px;
+}
